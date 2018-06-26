@@ -22,9 +22,21 @@ def permutations2(string, k=0):
     string_list = list(string)
     string_list_lenght = len(string_list)
     if k == string_list_lenght:
-        return [string_list]
+        print(string_list)
     else:
         for i in range(k, string_list_lenght):
             string_list[k], string_list[i] = string_list[i], string_list[k]
             permutations2(string_list, k + 1)
             string_list[k], string_list[i] = string_list[i], string_list[k]
+
+def permutations3(string):
+    string_list_lenght = len(string)
+    if string_list_lenght == 1:
+        return set(string)
+    chosen_letter = string[0]
+    rest_of_letters = permutations3(string[1:])
+    result = set()
+    for index in range(string_list_lenght):
+        for letters in rest_of_letters:
+            result.add(letters[0:index] + chosen_letter + letters[index:])
+    return result
