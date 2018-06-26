@@ -3,6 +3,7 @@ class Dinglemouse(object):
     def __init__(self, queues, capacity):
         self.queues = queues
         self.capacity = capacity
+        self.build_floors = len(queues)
 
     def theLift(self):
         return []
