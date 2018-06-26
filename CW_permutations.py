@@ -18,15 +18,15 @@ def my_permutations_unfinished(string, k = 0, accumulator = []):
             sub_result.add(sub_permutation_with_letter)
             return sub_result
 
-def permutations2(string, k=0):
+def permutations2(string, k=0, result=[]):
     string_list = list(string)
     string_list_lenght = len(string_list)
     if k == string_list_lenght:
-        print(string_list)
+        return string_list
     else:
         for i in range(k, string_list_lenght):
             string_list[k], string_list[i] = string_list[i], string_list[k]
-            permutations2(string_list, k + 1)
+            result.append(permutations2(string_list, k + 1, result))
             string_list[k], string_list[i] = string_list[i], string_list[k]
 
 def permutations3(string):
