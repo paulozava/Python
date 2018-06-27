@@ -12,6 +12,11 @@ class Dinglemouse(object):
         self.motion = 'up'
         self.buttons_pressed = self.get_calls(queues)
 
+    def get_motion (self):
+        if self.actual_floor < self.build_floors:
+            return 'up'
+        else:
+            return 'down'
 
     def get_calls (self, queues):
         buttons_pressed = {}
@@ -28,7 +33,6 @@ class Dinglemouse(object):
     # g-0   1   2         3   4   5   6
     # ((), (), (5, 5, 5), (), (), (), ())
     def theLift(self):
-        checagem de pedidos
         movimento
         carregamento
         descarregamento
