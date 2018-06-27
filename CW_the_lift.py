@@ -8,7 +8,7 @@ class Dinglemouse(object):
         self.capacity = capacity
         self.capacity_used = 0
         self.actual_floor = 0
-        self.build_floors = len(queues)
+        self.build_floors = len(queues) - 1
         self.motion = self.get_motion()
         self.buttons_pressed = self.get_calls(queues)
         self.stop_needs = {floor: 0 for floor, queue in enumerate(queues)}
@@ -20,7 +20,7 @@ class Dinglemouse(object):
             if self.actual_floor >= self.build_floors:
                 self.up_or_down.reverse()
         else:
-            if self.actual_floor <= self.build_floors:
+            if self.actual_floor >= 0:
                 self.up_or_down.reverse()
         return self.up_or_down[0]
 
