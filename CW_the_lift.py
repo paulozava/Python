@@ -13,12 +13,12 @@ class Dinglemouse(object):
         self.buttons_pressed = self.get_calls(queues)
         self.stop_needs = {floor: 0 for floor, queue in enumerate(queues)}
         self.floors_visited = []
+        self.up_or_down = ['up', 'down']
 
     def get_motion (self):
-        if self.actual_floor < self.build_floors:
-            return 'up'
-        else:
-            return 'down'
+        if not self.actual_floor < self.build_floors:
+            self.up_or_down.reverse()
+        return self.up_or_down[0]
 
     def get_calls (self):
         buttons_pressed = {}
