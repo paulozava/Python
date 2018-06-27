@@ -12,9 +12,8 @@ class Dinglemouse(object):
         self.motion = 'up'
         self.buttons_pressed = None
         self.stop_needs = {floor: 0 for floor, queue in enumerate(queues)}
-        self.floors_visited = []
+        self.floors_visited = [0]
         self.up_or_down = ['up', 'down']
-        self.also_embarked = False
 
     def get_motion (self, acending=True):
         if acending:
@@ -55,9 +54,8 @@ class Dinglemouse(object):
         return floor_orders
 
     def debarking (self):
-        if not self.also_embarked:
+        if self.floors_visited[-1] != self.actual_floor:
             self.floors_visited.append(self.actual_floor)
-        self.also_embarked=False
         self.stop_needs[self.actual_floor] = 0
         debarking_passangers = self.stop_needs[self.actual_floor]
         self.capacity_used -= debarking_passangers
@@ -66,10 +64,11 @@ class Dinglemouse(object):
     # g-0   1   2         3   4   5   6
     # ((), (), (5, 5, 5), (), (), (), ())
     def theLift(self):
-        self.get_motion(acending)
-        self.get_calls(self.queues)
+        self.get_motion(acending=True)
+        self.get_calls()
         #carregamento
         for floor, floor_orders in enumerate(self.queues):
+            self.actual_floor = floor
             if self.buttons_pressed[floor][self.motion]:
                 rest_of_orders = self.embarking(floor_orders)
                 self.queues[floor] = rest_of_orders
