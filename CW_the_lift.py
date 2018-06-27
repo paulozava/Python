@@ -15,9 +15,13 @@ class Dinglemouse(object):
         self.floors_visited = []
         self.up_or_down = ['up', 'down']
 
-    def get_motion (self):
-        if not self.actual_floor < self.build_floors:
-            self.up_or_down.reverse()
+    def get_motion (self, acending=True):
+        if acending:
+            if self.actual_floor >= self.build_floors:
+                self.up_or_down.reverse()
+        else:
+            if self.actual_floor <= self.build_floors:
+                self.up_or_down.reverse()
         return self.up_or_down[0]
 
     def get_calls (self):
@@ -31,6 +35,9 @@ class Dinglemouse(object):
                     floor_button['down'] = True
             buttons_pressed.update({floor : floor_button})
         return buttons_pressed
+
+    def rage_button_click (self):
+        self.buttons_pressed[self.actual_floor] = {'up': True, 'down': True}
     
     def embarking (self, floor_orders):
         filter_possibilities = {'up': lambda x: x > self.actual_floor,
@@ -59,4 +66,5 @@ class Dinglemouse(object):
         descarregamento
         reversao do movimento
         sem novos pedidos
+
         return []
