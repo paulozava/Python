@@ -1,5 +1,7 @@
 # https://www.codewars.com/kata/the-lift/train/python
 
+
+
 class Dinglemouse(object):
 
     def __init__(self, queues, capacity):
@@ -8,10 +10,10 @@ class Dinglemouse(object):
         self.build_floors = len(queues)
         self.actual_floor = 0
         self.motion = 'up'
-        self.buttons_pressed = get_calls(queues)
+        self.buttons_pressed = self.get_calls(queues)
 
 
-    def get_calls (queues):
+    def get_calls (self, queues):
         buttons_pressed = {}
         for floor, queue in enumerate(queues):
             floor_button = {'up': False, 'down': False}
