@@ -78,7 +78,8 @@ class Dinglemouse(object):
                 if self.stop_needs[floor]:
                     self.debarking()
             self.invert_motion()
-        self.floors_visited.append(0)
+        if self.floors_visited[-1] != 0:
+            self.floors_visited.append(0)
         return self.floors_visited
 
 if __name__ == '__main__':
