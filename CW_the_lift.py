@@ -78,9 +78,43 @@ class Dinglemouse(object):
             if self.stop_needs[floor]:
                 self.debarking()
 
+        self.floors_visited.append(0)
         return self.floors_visited
 
 if __name__ == '__main__':
-    lift = Dinglemouse(((), (), (5, 5, 5), (), (), (), ()), 5)
+
+    build = ((), (), (5, 5, 5), (), (), (), ())
+    expect = [0, 2, 5, 0]
+    lift = Dinglemouse(build, 5)
     visited = lift.theLift()
+    print('**********')
     print(visited)
+    print(expect)
+    print(visited == expect)
+
+    build = ((), (), (1, 1), (), (), (), ())
+    expect = [0, 2, 1, 0]
+    lift = Dinglemouse(build, 5)
+    visited = lift.theLift()
+    print('**********')
+    print(visited)
+    print(expect)
+    print(visited == expect)
+
+    build = ((), (3,), (4,), (), (5,), (), ())
+    expect = [0, 1, 2, 3, 4, 5, 0]
+    lift = Dinglemouse(build, 5)
+    visited = lift.theLift()
+    print('**********')
+    print(visited)
+    print(expect)
+    print(visited == expect)
+
+    build = ((), (), (1, 1), (), (), (), ())
+    expect = [0, 2, 1, 0]
+    lift = Dinglemouse(build, 5)
+    visited = lift.theLift()
+    print('**********')
+    print(visited)
+    print(expect)
+    print(visited == expect)
