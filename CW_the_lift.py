@@ -56,9 +56,9 @@ class Dinglemouse(object):
     def debarking (self):
         if self.floors_visited[-1] != self.actual_floor:
             self.floors_visited.append(self.actual_floor)
-        self.stop_needs[self.actual_floor] = 0
         debarking_passangers = self.stop_needs[self.actual_floor]
         self.capacity_used -= debarking_passangers
+        self.stop_needs[self.actual_floor] = 0
 
 
     # g-0   1   2         3   4   5   6
