@@ -9,20 +9,12 @@ class Dinglemouse(object):
         self.capacity_used = 0
         self.actual_floor = 0
         self.build_floors = len(queues) - 1
-        self.motion = 'up'
         self.buttons_pressed = None
         self.stop_needs = {floor: 0 for floor, queue in enumerate(queues)}
         self.floors_visited = [0]
+        self.motion = 'up'
         self.up_or_down = ['up', 'down']
-
-    def get_motion (self, acending=True):
-        if acending:
-            if self.actual_floor >= self.build_floors:
-                self.up_or_down.reverse()
-        else:
-            if self.actual_floor >= 0:
-                self.up_or_down.reverse()
-        self.motion = self.up_or_down[0]
+        self.decending = False
 
     def get_calls (self):
         buttons_pressed = {}
@@ -38,6 +30,11 @@ class Dinglemouse(object):
 
     def rage_button_click (self):
         self.buttons_pressed[self.actual_floor] = {'up': True, 'down': True}
+
+    def invert_motion (self):
+        self.up_or_down.reverse()
+        self.motion = self.up_or_down[0]
+        self.decending = not self.decending
     
     def embarking (self, floor_orders):
         filter_possibilities = {'up': lambda x: x > self.actual_floor,
@@ -64,20 +61,19 @@ class Dinglemouse(object):
     # g-0   1   2         3   4   5   6
     # ((), (), (5, 5, 5), (), (), (), ())
     def theLift(self):
-        self.get_motion(acending=True)
         self.get_calls()
-        #carregamento
-        for floor, floor_orders in enumerate(self.queues):
-            self.actual_floor = floor
-            if self.buttons_pressed[floor][self.motion]:
-                rest_of_orders = self.embarking(floor_orders)
-                self.queues[floor] = rest_of_orders
-                if rest_of_orders:
-                    self.rage_button_click()
-                self.also_embarked = True
-            if self.stop_needs[floor]:
-                self.debarking()
-
+        while self.queues:
+            for floor, floor_orders in enumerate(self.queues):
+                self.actual_floor = floor
+                if self.buttons_pressed[floor][self.motion]:
+                    rest_of_orders = self.embarking(floor_orders)
+                    self.queues[floor] = rest_of_orders
+                    if rest_of_orders:
+                        self.rage_button_click()
+                    self.also_embarked = True
+                if self.stop_needs[floor]:
+                    self.debarking()
+            self.invert_motion()
         self.floors_visited.append(0)
         return self.floors_visited
 
