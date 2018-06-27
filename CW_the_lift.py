@@ -30,6 +30,8 @@ class Dinglemouse(object):
 
     def rage_button_click (self):
         self.buttons_pressed[self.actual_floor] = {'up': True, 'down': True}
+        self.buttons_pressed[0]['down'] = False
+        self.buttons_pressed[self.build_floors]['up'] = False
 
     def invert_motion (self):
         self.up_or_down.reverse()
@@ -46,7 +48,8 @@ class Dinglemouse(object):
         filter_possibilities = {'up': lambda x: x > self.actual_floor,
                                 'down': lambda x: x < self.actual_floor}
         possible_orders = list(filter(filter_possibilities[self.motion], floor_orders))
-        self.floors_visited.append(self.actual_floor)
+        if self.floors_visited[-1] != self.actual_floor:
+            self.floors_visited.append(self.actual_floor)
         while self.capacity > self.capacity_used:
             if possible_orders:
                 self.capacity_used += 1
@@ -69,14 +72,14 @@ class Dinglemouse(object):
             floors_and_orders = sorted(enumerate(self.queues), reverse=self.descending)
             for floor, floor_orders in floors_and_orders:
                 self.actual_floor = floor
+                if self.stop_needs[floor]:
+                    self.debarking()
                 if self.buttons_pressed[floor][self.motion]:
                     rest_of_orders = self.embarking(floor_orders)
                     self.queues[floor] = rest_of_orders
                     if rest_of_orders:
                         self.rage_button_click()
                     self.also_embarked = True
-                if self.stop_needs[floor]:
-                    self.debarking()
             self.invert_motion()
         if self.floors_visited[-1] != 0:
             self.floors_visited.append(0)
