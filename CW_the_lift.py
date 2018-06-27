@@ -14,7 +14,7 @@ class Dinglemouse(object):
         self.floors_visited = [0]
         self.motion = 'up'
         self.up_or_down = ['up', 'down']
-        self.decending = False
+        self.descending = False
 
     def get_calls (self):
         buttons_pressed = {}
@@ -34,7 +34,7 @@ class Dinglemouse(object):
     def invert_motion (self):
         self.up_or_down.reverse()
         self.motion = self.up_or_down[0]
-        self.decending = not self.decending
+        self.descending = not self.descending
     
     def embarking (self, floor_orders):
         filter_possibilities = {'up': lambda x: x > self.actual_floor,
