@@ -35,6 +35,12 @@ class Dinglemouse(object):
         self.up_or_down.reverse()
         self.motion = self.up_or_down[0]
         self.descending = not self.descending
+
+    def still_have_calls (self):
+        for queue in self.queues:
+            if queue:
+                return True
+        return False
     
     def embarking (self, floor_orders):
         filter_possibilities = {'up': lambda x: x > self.actual_floor,
@@ -57,13 +63,11 @@ class Dinglemouse(object):
         self.capacity_used -= debarking_passangers
         self.stop_needs[self.actual_floor] = 0
 
-
-    # g-0   1   2         3   4   5   6
-    # ((), (), (5, 5, 5), (), (), (), ())
     def theLift(self):
         self.get_calls()
-        while self.queues:
-            for floor, floor_orders in enumerate(self.queues):
+        while self.still_have_calls():
+            floors_and_orders = sorted(enumerate(self.queues), reverse=self.descending)
+            for floor, floor_orders in floors_and_orders:
                 self.actual_floor = floor
                 if self.buttons_pressed[floor][self.motion]:
                     rest_of_orders = self.embarking(floor_orders)
