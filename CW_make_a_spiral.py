@@ -1,10 +1,6 @@
-# https://www.codewars.com/kata/make-a-spiral/train/python
-
 def spiralize(size):
     if size == 0:
         return []
-    if size == 2:
-        return [[1, 1], [0, 1]]
 
     transformations = 4
     position = 0
@@ -28,7 +24,7 @@ def spiralize(size):
             spiral_matrix = rotate(spiral_matrix, False)
             rotations += 1
 
-    if (size - 2) % 4 == 0:
+    if (size - 2) % 4 == 0 or size == 2:
         spiral_matrix[int(size/2)][int((size-1)/2)] = 0
 
     return spiral_matrix
