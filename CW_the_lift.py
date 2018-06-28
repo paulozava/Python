@@ -37,6 +37,7 @@ class Dinglemouse(object):
         self.up_or_down.reverse()
         self.motion = self.up_or_down[0]
         self.descending = not self.descending
+        self.get_calls()
 
     def still_have_calls (self):
         for queue in self.queues:
@@ -50,13 +51,20 @@ class Dinglemouse(object):
         possible_orders = list(filter(filter_possibilities[self.motion], floor_orders))
         if self.floors_visited[-1] != self.actual_floor:
             self.floors_visited.append(self.actual_floor)
-        while self.capacity > self.capacity_used:
+        self.buttons_pressed[self.actual_floor][self.motion] = False
+        while self.capacity_used < self.capacity:
             if possible_orders:
                 self.capacity_used += 1
                 passager_order = possible_orders.pop()
                 self.stop_needs[passager_order] += 1
                 floor_orders.remove(passager_order)
-            else: break
+            else:
+                break
+        # print('embarking')
+        # print('floor: ' + str(self.actual_floor))
+        # print(self.capacity_used)
+        # print(self.queues)
+        # print('###########')
         return floor_orders
 
     def debarking (self):
@@ -65,6 +73,11 @@ class Dinglemouse(object):
         debarking_passangers = self.stop_needs[self.actual_floor]
         self.capacity_used -= debarking_passangers
         self.stop_needs[self.actual_floor] = 0
+        # print('debarking')
+        # print('floor: ' + str(self.actual_floor))
+        # print(self.capacity_used)
+        # print(self.queues)
+        # print('###########')
 
     def theLift(self):
         self.get_calls()
@@ -72,14 +85,13 @@ class Dinglemouse(object):
             floors_and_orders = sorted(enumerate(self.queues), reverse=self.descending)
             for floor, floor_orders in floors_and_orders:
                 self.actual_floor = floor
-                if self.stop_needs[floor]:
+                if self.stop_needs[floor] > 0:
                     self.debarking()
                 if self.buttons_pressed[floor][self.motion]:
                     rest_of_orders = self.embarking(floor_orders)
                     self.queues[floor] = rest_of_orders
                     if rest_of_orders:
                         self.rage_button_click()
-                    self.also_embarked = True
             self.invert_motion()
         if self.floors_visited[-1] != 0:
             self.floors_visited.append(0)
