@@ -5,8 +5,6 @@ def spiralize(size):
         return []
     if size == 2:
         return [[1, 1], [0, 1]]
-    if size == 6:
-        return [[1, 1, 1, 1, 1, 1], [0, 0, 0, 0, 0, 1], [1, 1, 1, 1, 0, 1], [1, 0, 1, 1, 0, 1], [1, 0, 0, 0, 0, 1], [1, 1, 1, 1, 1, 1]]
 
     transformations = 4
     position = 0
