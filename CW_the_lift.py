@@ -4,6 +4,9 @@
 class Dinglemouse(object):
 
     def __init__(self, queues, capacity):
+        # print('build = ' + str(queues))
+        # print('capacity = ' + str(capacity))
+        # print('expect = ')
         self.queues = list(map(list, map(reversed,queues)))
         self.capacity = capacity
         self.capacity_used = 0
@@ -96,72 +99,3 @@ class Dinglemouse(object):
         if self.floors_visited[-1] != 0:
             self.floors_visited.append(0)
         return self.floors_visited
-
-if __name__ == '__main__':
-
-    build = ((), (), (5, 5, 5), (), (), (), ())
-    expect = [0, 2, 5, 0]
-    lift = Dinglemouse(build, 5)
-    visited = lift.theLift()
-    print('**********')
-    print(visited)
-    print(expect)
-    print(visited == expect)
-
-    build = ((), (), (1, 1), (), (), (), ())
-    expect = [0, 2, 1, 0]
-    lift = Dinglemouse(build, 5)
-    visited = lift.theLift()
-    print('**********')
-    print(visited)
-    print(expect)
-    print(visited == expect)
-
-    build = ((), (3,), (4,), (), (5,), (), ())
-    expect = [0, 1, 2, 3, 4, 5, 0]
-    lift = Dinglemouse(build, 5)
-    visited = lift.theLift()
-    print('**********')
-    print(visited)
-    print(expect)
-    print(visited == expect)
-
-    build = ((), (), (1, 1), (), (), (), ())
-    expect = [0, 2, 1, 0]
-    lift = Dinglemouse(build, 5)
-    visited = lift.theLift()
-    print('**********')
-    print(visited)
-    print(expect)
-    print(visited == expect)
-
-
-    build = ((), (0, 0, 0, 6), (), (), (), (6, 6, 0, 0, 0, 6), ())
-    capacity = 5
-    expect = [0, 1, 5, 6, 5, 1, 0, 1, 0]
-    lift = Dinglemouse(build, capacity)
-    visited = lift.theLift()
-    print('**********')
-    print(visited)
-    print(expect)
-    print(visited == expect)
-
-    build = ((), (2,), (3, 3, 3), (1,), (), (), ())
-    capacity = 1
-    expect = [0, 1, 2, 3, 1, 2, 3, 2, 3, 0]
-    lift = Dinglemouse(build, capacity)
-    visited = lift.theLift()
-    print('**********')
-    print(visited)
-    print(expect)
-    print(visited == expect)
-
-    build = ((), (0, 0, 0, 0), (0, 0, 0, 0), (0, 0, 0, 0), (0, 0, 0, 0), (0, 0, 0, 0), (0, 0, 0, 0))
-    capacity = 5
-    expect = [0, 6, 5, 4, 3, 2, 1, 0, 5, 4, 3, 2, 1, 0, 4, 3, 2, 1, 0, 3, 2, 1, 0, 1, 0]
-    lift = Dinglemouse(build, capacity)
-    visited = lift.theLift()
-    print('**********')
-    print(visited)
-    print(expect)
-    print(visited == expect)
