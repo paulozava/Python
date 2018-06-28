@@ -1,12 +1,6 @@
-# https://www.codewars.com/kata/the-lift/train/python
-
-
-class Dinglemouse(object):
+class Lift(object):
 
     def __init__(self, queues, capacity):
-        # print('build = ' + str(queues))
-        # print('capacity = ' + str(capacity))
-        # print('expect = ')
         self.queues = list(map(list, map(reversed,queues)))
         self.capacity = capacity
         self.capacity_used = 0
@@ -19,7 +13,7 @@ class Dinglemouse(object):
         self.up_or_down = ['up', 'down']
         self.descending = False
 
-    def get_calls (self):
+    def refresh_calls (self):
         buttons_pressed = {}
         for floor, queue in enumerate(self.queues):
             floor_button = {'up': False, 'down': False}
@@ -40,7 +34,7 @@ class Dinglemouse(object):
         self.up_or_down.reverse()
         self.motion = self.up_or_down[0]
         self.descending = not self.descending
-        self.get_calls()
+        self.refresh_calls()
 
     def still_have_calls (self):
         for queue in self.queues:
@@ -63,11 +57,6 @@ class Dinglemouse(object):
                 floor_orders.remove(passager_order)
             else:
                 break
-        # print('embarking')
-        # print('floor: ' + str(self.actual_floor))
-        # print(self.capacity_used)
-        # print(self.queues)
-        # print('###########')
         return floor_orders
 
     def debarking (self):
@@ -76,14 +65,10 @@ class Dinglemouse(object):
         debarking_passangers = self.stop_needs[self.actual_floor]
         self.capacity_used -= debarking_passangers
         self.stop_needs[self.actual_floor] = 0
-        # print('debarking')
-        # print('floor: ' + str(self.actual_floor))
-        # print(self.capacity_used)
-        # print(self.queues)
-        # print('###########')
 
-    def theLift(self):
-        self.get_calls()
+
+    def lift_start(self):
+        self.refresh_calls()
         while self.still_have_calls():
             floors_and_orders = sorted(enumerate(self.queues), reverse=self.descending)
             for floor, floor_orders in floors_and_orders:
