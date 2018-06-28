@@ -1,28 +1,28 @@
 # https://www.codewars.com/kata/make-a-spiral/train/python
 
 def spiralize(size):
+    transformations = 4
     position = 0
     rotations = 0
     spiral_matrix = make_square_matrix(size)
 
-    spiral_matrix[position] = [1] * size
-    spiral_matrix = rotate(spiral_matrix, False)
-    spiral_matrix[position] = [1] * size
-    spiral_matrix = rotate(spiral_matrix, False)
-    spiral_matrix[position] = [1] * size
-    spiral_matrix = rotate(spiral_matrix, False)
+    while rotations < 3:
+        spiral_matrix[position] = [1] * size
+        spiral_matrix = rotate(spiral_matrix, False)
+        rotations += 1
 
-    while rotations < 4:
-
-
-    for index in range(position-1, size):
-        if index + 2 > size:
-            break
-        if spiral_matrix[position][index + 1] == 0:
-            spiral_matrix[position][index] = 1
-
-    position += 2
-    spiral_matrix = rotate(spiral_matrix, False)
+    while transformations < size:
+        position += 2
+        rotations = 0
+        while rotations < 4:
+            transformations += 1
+            for index in range(position-1, size):
+                if index + 2 > size:
+                    break
+                if spiral_matrix[position][index + 1] == 0:
+                    spiral_matrix[position][index] = 1
+            spiral_matrix = rotate(spiral_matrix, False)
+            rotations += 1
 
     return spiral_matrix
 
