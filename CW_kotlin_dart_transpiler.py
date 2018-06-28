@@ -1,3 +1,5 @@
+# https://www.codewars.com/kata/597ccf7613d879c4cb00000f/train/python
+
 def transpile (expression):
     return ""
 
@@ -22,16 +24,16 @@ def transpile (expression):
 
 # There's a syntax sugar in Kotlin: if the last argument is a lambda, it can be out of the brackets. Like, repeat(10, { xxx }) can be written in repeat(10) { xxx }. And if that lambda is the only argument, you can even ignore the brackets. Like: run({ xxx }) is equaled to run { xxx }.
 
-fun() => fun()
-fun(a) => fun(a)
-fun(a, b) => fun(a,b)
-{}() => (){}()
-fun {} => fun((){})
-fun(a, {}) => fun(a,(){})
-fun(a) {} => fun(a,(){})
-fun {a -> a} => fun((a){a;})
-{a -> a}(1) => (a){a;}(1)
-fun { a, b -> a b } => fun((a,b){a;b;})
-{a, b -> a b} (1, 2) => (a,b){a;b;}(1,2)
-f { a } => f((){a;})
-f { a -> } => f((a){})
+# fun() => fun()
+# fun(a) => fun(a)
+# fun(a, b) => fun(a,b)
+# {}() => (){}()
+# fun {} => fun((){})
+# fun(a, {}) => fun(a,(){})
+# fun(a) {} => fun(a,(){})
+# fun {a -> a} => fun((a){a;})
+# {a -> a}(1) => (a){a;}(1)
+# fun { a, b -> a b } => fun((a,b){a;b;})
+# {a, b -> a b} (1, 2) => (a,b){a;b;}(1,2)
+# f { a } => f((){a;})
+# f { a -> } => f((a){})
