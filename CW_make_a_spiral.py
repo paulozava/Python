@@ -11,19 +11,27 @@ def spiralize(size):
         spiral_matrix = rotate(spiral_matrix, False)
         rotations += 1
 
+    spiral_matrix = add_ones(position, size, spiral_matrix)
+    spiral_matrix = rotate(spiral_matrix, False)
+
     while transformations < size:
         position += 2
         rotations = 0
         while rotations < 4:
             transformations += 1
-            for index in range(position-1, size):
-                if index + 2 > size:
-                    break
-                if spiral_matrix[position][index + 1] == 0:
-                    spiral_matrix[position][index] = 1
+            spiral_matrix = add_ones(position, size, spiral_matrix)
             spiral_matrix = rotate(spiral_matrix, False)
             rotations += 1
 
+    return spiral_matrix
+
+
+def add_ones(position, size, spiral_matrix):
+    for index in range(position - 1, size):
+        if index + 2 > size:
+            break
+        if spiral_matrix[position][index + 1] == 0:
+            spiral_matrix[position][index] = 1
     return spiral_matrix
 
 
