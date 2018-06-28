@@ -1,15 +1,33 @@
 # https://www.codewars.com/kata/make-a-spiral/train/python
 
 def spiralize(size):
-    snake_max_path = size
-    spital_matrix = make_spiral_matrix(size)
-    for path in range(snake_max_path):
+    position = 0
+    rotations = 0
+    spiral_matrix = make_square_matrix(size)
 
-    spital_matrix = rotate(spital_matrix)
-    return spital_matrix
+    spiral_matrix[position] = [1] * size
+    spiral_matrix = rotate(spiral_matrix, False)
+    spiral_matrix[position] = [1] * size
+    spiral_matrix = rotate(spiral_matrix, False)
+    spiral_matrix[position] = [1] * size
+    spiral_matrix = rotate(spiral_matrix, False)
+
+    while rotations < 4:
 
 
-def make_spiral_matrix(size):
+    for index in range(position-1, size):
+        if index + 2 > size:
+            break
+        if spiral_matrix[position][index + 1] == 0:
+            spiral_matrix[position][index] = 1
+
+    position += 2
+    spiral_matrix = rotate(spiral_matrix, False)
+
+    return spiral_matrix
+
+
+def make_square_matrix(size):
     matrix = [[0] * size for i in range(size)]
     return matrix
 
@@ -27,7 +45,3 @@ def rotate (matrix, clockwise=True):
     if not clockwise:
         new_matrix.reverse()
     return new_matrix
-
-def test (matrix, size):
-    matrix[0] = [1 for i in range(size)]
-    matrix[-1] = [1 for i in range(size)]
