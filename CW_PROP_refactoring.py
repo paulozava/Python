@@ -1,3 +1,5 @@
+# this is a function which formats a duration, given as a number of seconds, in a human-friendly way. However, the previous programer do not wrote this code in friendly way. You job here is to refactor this code whitout break it.
+
 #a function which formats a duration, given as a number of seconds, in a human-friendly way.
 
 def format_duration(seconds):
