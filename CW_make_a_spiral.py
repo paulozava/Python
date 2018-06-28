@@ -44,7 +44,6 @@ def add_ones(position, size, spiral_matrix):
             spiral_matrix[position][index] = 1
     return spiral_matrix
 
-
 def make_square_matrix(size):
     matrix = [[0] * size for i in range(size)]
     return matrix
