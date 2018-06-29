@@ -1,3 +1,5 @@
+# a group of functions that create a NxN spiral matrix of 0 and 1 with a given size and return that matrix with the maximum path of a snake game.
+
 def spiralize(size):
     if size == 0:
         return []
