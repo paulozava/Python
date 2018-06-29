@@ -71,3 +71,11 @@ def summation(number):
     range_numbers = range(1,number+1)
     sum_of_range = sum(range_numbers)
     return sum_of_range
+
+def count_positives_sum_negatives(arr):
+    if not arr:
+        return arr
+    negative_ones = list(filter(lambda x: x <= 0, arr))
+    positive_count = len(arr) - len(negative_ones)
+    negative_sum = sum(negative_ones)
+    return [positive_count, negative_sum]
