@@ -53,3 +53,15 @@ def digitize(n):
     numbers = [digit for digit in str(n)]
     numbers.reverse()
     return numbers
+
+# a function that does four basic mathematical operations
+def basic_op(operator, value1, value2):
+    #without operators lib
+    if operator is '+':
+        return value1 + value2
+    elif operator is '-':
+        return value1 - value2
+    elif operator is '*':
+        return value1 * value2
+    elif operator is '/':
+        return value1 / value2
