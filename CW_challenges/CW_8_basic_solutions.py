@@ -37,3 +37,13 @@ def square_sum(numbers):
 def string_to_number(string):
     number = int(string)
     return number
+
+# function finds the needle it should return a message (as a string) that says:
+# "found the needle at position " plus the index
+def find_needle(haystack):
+    try:
+        needle_position = haystack.index('needle')
+        answer = "found the needle at position " + str(needle_position)
+        return answer
+    except:
+        return "no needle"
