@@ -28,7 +28,7 @@ def no_space(x=''):
     x = x.strip()
     return x
 
-# method so that it squares each number passed into it and then sums the results together.
+# method so that it squares each number passed into it and then sums the results together
 def square_sum(numbers):
     numbers = map(lambda x: x**2, numbers)
     return sum(numbers)
