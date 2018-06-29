@@ -1,4 +1,4 @@
-#a function that takes a positive integer number and returns the next bigger number formed by the same digits
+#a function that takes a positive integer number and returns the next bigger number formed by the same digits.
 
 def next_bigger(number):
     matcher = sorted([match for match in str(number)])
