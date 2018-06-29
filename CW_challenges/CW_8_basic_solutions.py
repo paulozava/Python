@@ -65,3 +65,9 @@ def basic_op(operator, value1, value2):
         return value1 * value2
     elif operator is '/':
         return value1 / value2
+
+#finds the summation of every number between 1 and num
+def summation(number):
+    range_numbers = range(1,number+1)
+    sum_of_range = sum(range_numbers)
+    return sum_of_range
