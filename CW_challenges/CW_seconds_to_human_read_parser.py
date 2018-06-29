@@ -1,5 +1,6 @@
 #a function which formats a duration, given as a number of seconds, in a human-friendly way.
 
+
 def format_duration(seconds):
     if seconds is 0:
         return 'now'
