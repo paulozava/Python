@@ -32,3 +32,8 @@ def no_space(x=''):
 def square_sum(numbers):
     numbers = map(lambda x: x**2, numbers)
     return sum(numbers)
+
+# a function that can transform a string into a number.
+def string_to_number(string):
+    number = int(string)
+    return number
