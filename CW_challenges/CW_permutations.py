@@ -1,4 +1,4 @@
-# you have to create all permutations of an input string and remove duplicates, if present. This means, you have to shuffle all letters from the input in all possible orders.
+# create all permutations of an input string and remove duplicates, if present.
 
 def my_permutations_unfinished(string, k = 0, accumulator = []):
     #i have problems with return itens
