@@ -79,3 +79,12 @@ def count_positives_sum_negatives(arr):
     positive_count = len(arr) - len(negative_ones)
     negative_sum = sum(negative_ones)
     return [positive_count, negative_sum]
+
+def alias_gen(f_name, l_name):
+
+    if not f_name[0].isalpha() or not l_name[0].isalpha():
+        return "Your name must start with a letter from A - Z."
+    name, surname = f_name[0], l_name[0]
+    if 6 == len(f_name) or 4 == len(f_name):
+        return '{} {}'.format(FIRST_NAME[name], SURNAME[surname])
+
