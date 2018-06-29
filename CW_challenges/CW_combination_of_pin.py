@@ -1,5 +1,6 @@
-def get_pins(observed):
-    '''TODO: This is your job, detective!'''
+# a function that returns an list of all variations for an observed PIN
+
+def possible_combinations(observed):
     actions = {
         '1': ['1', '2', '4'],
         '2': ['1','2','3','5'],
