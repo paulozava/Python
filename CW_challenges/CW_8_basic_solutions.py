@@ -47,3 +47,9 @@ def find_needle(haystack):
         return answer
     except:
         return "no needle"
+
+#number to reversed array of digits
+def digitize(n):
+    numbers = [digit for digit in str(n)]
+    numbers.reverse()
+    return numbers
