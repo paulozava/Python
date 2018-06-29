@@ -22,3 +22,13 @@ def reverse_string(string):
 def remove_edge_letters(string):
     answer = string[1:-1]
     return answer
+
+#remove the spaces from the string,
+def no_space(x=''):
+    x = x.strip()
+    return x
+
+# method so that it squares each number passed into it and then sums the results together.
+def square_sum(numbers):
+    numbers = map(lambda x: x**2, numbers)
+    return sum(numbers)
