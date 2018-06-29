@@ -17,3 +17,8 @@ def reverse_string(string):
     letters.reverse()
     answer = ''.join(letters)
     return answer
+
+#a function that removes the first and last characters of a string.
+def remove_edge_letters(string):
+    answer = string[1:-1]
+    return answer
