@@ -10,3 +10,10 @@ def positive_sum(numbers):
 def bool_to_word(boolean):
     if boolean: return 'Yes'
     return 'No'
+
+#reverses the string value passed into it.
+def reverse_string(string):
+    letters = [letter for letter in string]
+    letters.reverse()
+    answer = ''.join(letters)
+    return answer
