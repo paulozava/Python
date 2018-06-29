@@ -1,3 +1,5 @@
+# a lift simulator that tries to maximize performance of it.
+
 class Lift(object):
 
     def __init__(self, queues, capacity):
