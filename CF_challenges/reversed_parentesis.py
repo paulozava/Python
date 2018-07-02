@@ -1,7 +1,7 @@
 import re
 
 def invert_parentesis(string):
-    while "(" in string
+    while "(" in string:
         find_patterns = re.findall(r'\(([\w\s!?@#$%&*]*)\)', string)
         for pattern in find_patterns:
             reversed_string = pattern[::-1]
