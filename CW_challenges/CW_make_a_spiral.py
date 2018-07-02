@@ -43,18 +43,3 @@ def add_ones(position, size, spiral_matrix):
 def make_square_matrix(size):
     matrix = [[0] * size for i in range(size)]
     return matrix
-
-def rotate (matrix, clockwise=True):
-    new_matrix = []
-    horizontal_size, vertical_size = len(matrix[0]), len(matrix)
-    for horizontal in range(horizontal_size):
-        new_line = []
-        for vertical in range(vertical_size):
-            element = matrix[vertical][horizontal]
-            new_line.append(element)
-        if clockwise:
-            new_line.reverse()
-        new_matrix.append(new_line)
-    if not clockwise:
-        new_matrix.reverse()
-    return new_matrix
