@@ -46,10 +46,10 @@ def make_square_matrix(size):
 
 def rotate (matrix, clockwise=True):
     new_matrix = []
-    size = len(matrix)
-    for horizontal in range(size):
+    horizontal_size, vertical_size = len(matrix[0]), len(matrix)
+    for horizontal in range(horizontal_size):
         new_line = []
-        for vertical in range(size):
+        for vertical in range(vertical_size):
             element = matrix[vertical][horizontal]
             new_line.append(element)
         if clockwise:

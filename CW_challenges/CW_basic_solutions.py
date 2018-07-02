@@ -88,3 +88,23 @@ def alias_gen(f_name, l_name):
     if 6 == len(f_name) or 4 == len(f_name):
         return '{} {}'.format(FIRST_NAME[name], SURNAME[surname])
 
+def almostIncreasingSequence(sequence):
+    for item in sequence:
+        new_sequence = []
+        new_sequence.extend(sequence)
+        new_sequence.remove(item)
+        sequenced_list = list(range(min(new_sequence), max(new_sequence)+1))
+        if new_sequence == sequenced_list:
+            return True
+    return False
+
+
+def almostIncreasingSequence(sequence):
+    sequence_setlist = list(set(sequence))
+    if sorted(sequence) != sorted(sequence_setlist):
+        return False
+    while len(sequence) > 1:
+        edge = sequence.pop()
+        last = sequence[-1]
+        if last >= edge:
+            outlier += 1
