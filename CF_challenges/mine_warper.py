@@ -6,21 +6,21 @@ def minesweeper(matrix):
         for x in range(x_axis):
             neighbour = []
             if x > 0:
-                neighbour.extend(matrix[y][x-1])
+                neighbour.append(matrix[y][x-1])
                 if y > 0:
-                   neighbour.extend(matrix[y - 1][x - 1])
+                    neighbour.append(matrix[y - 1][x - 1])
                 if y < y_axis - 1:
-                    neighbour.extend(matrix[y + 1][x - 1])
+                    neighbour.append(matrix[y + 1][x - 1])
             if x < x_axis -1:
-                neighbour.extend(matrix[y][x + 1])
+                neighbour.append(matrix[y][x + 1])
                 if y > 0:
-                    neighbour.extend(matrix[y - 1][x + 1])
+                    neighbour.append(matrix[y - 1][x + 1])
                 if y < y_axis - 1:
-                    neighbour.extend(matrix[y + 1][x + 1])
+                    neighbour.append(matrix[y + 1][x + 1])
             if y > 0:
-                neighbour.extend(matrix[y-1][x])
+                neighbour.append(matrix[y-1][x])
             if y < y_axis -1:
-                neighbour.extend(matrix[y+1][x])
+                neighbour.append(matrix[y+1][x])
             mines = neighbour.count(True)
             line.append(mines)
         new_matrix.append(line)
