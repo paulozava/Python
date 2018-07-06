@@ -2,7 +2,7 @@
 
 #  	9.  Your size increments by one each time you reach the amounts below.
 
-def fish(shoal, size = 1, ate_protein = 0):
+def fish(shoal, size = 1, protein_earned = 0):
     #  	1.  Your size starts at 1
     #  	2.  The shoal string will contain fish integers between 0-9
     #  	3.  0 = algae and wont help you feed.
@@ -12,11 +12,13 @@ def fish(shoal, size = 1, ate_protein = 0):
     edible_fishes = filter(lambda x: x <= size, fishes)
     #  	6.  You can eat the fish in any order you choose to maximize your size.
     #  	7.  You can and only eat each fish once.
-    protein_earned = sum(edible_fishes)
-    ate_protein += protein_earned
+    ate_protein = sum(edible_fishes)
+    protein_earned += ate_protein
     #can grow?
-    if ate_protein >= protein_to_grow(size):
+    if protein_earned >= protein_to_grow(size):
         size += 1
+    else:
+        grow = False
 
     #  	8.  The bigger fish you eat, the faster you grow. A size 2 fish equals two size 1 fish, size 3 fish equals three size 1 fish, and so on.
 
