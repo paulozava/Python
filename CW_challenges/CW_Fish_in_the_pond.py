@@ -17,3 +17,24 @@ def protein_to_grow(actual_size):
     accumulate_sizes = filter(lambda x: x <= actual_size, sizes)
     protein_to_accumulate = sum([4*size for size in accumulate_sizes])
     return protein_to_accumulate
+
+
+if __name__ == '__main__':
+    # print(fish(""))
+    # print("Should return '1'")
+    # print(fish("0"))
+    # print("Should return '1'")
+    # print(fish("6"))
+    # print("Should return '1'")
+    # print(fish("1111"))
+    # print("Should return '2'")
+    print(fish("11112222"))
+    print("Should return '3'")
+    # print(fish("111122223333"))
+    # print("Should return '4'")
+    # print(fish("111111111111"))
+    # print("Should return '3'")
+    # print(fish("111111111111111111112222222222"))
+    # print("Should return '5'")
+    # print(fish("151128241212192113722321331"))
+    # print("Should return '5'")
