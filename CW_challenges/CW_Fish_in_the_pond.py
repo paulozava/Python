@@ -13,11 +13,11 @@ def fish(shoal, size = 1, protein_earned = 0):
     return size
 
 def protein_to_grow(actual_size):
-    sizes = [1,2,3,4,5,6,7,8,9]
-    accumulate_sizes = filter(lambda x: x <= actual_size, sizes)
-    protein_to_accumulate = sum([4*size for size in accumulate_sizes])
+    protein_to_accumulate = 0
+    while actual_size > 0:
+        protein_to_accumulate += actual_size * 4
+        actual_size -= 1
     return protein_to_accumulate
-
 
 if __name__ == '__main__':
     print(fish(""))
