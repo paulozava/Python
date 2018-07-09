@@ -1,18 +1,11 @@
-
-def bubble(x):
-    last_element = x.pop()
-    for n in range(len(x), 0, -1):
-        if last_element <=
-
-
-def proposed(a):
-    n = len(a)
-    for i in range(1, n):
+def bubble(iterator, reverse=False):
+    iterator_length = len(iterator)
+    for i in range(0, iterator_length):
         swapped = False
-        for j in range(n, i + 1, -1):
-            if a[j] < a[j - 1]:
-                a[j], a[j - 1] = a[j - 1], a[j]
+        for j in range(iterator_length -1, i , -1):
+            if iterator[j] < iterator[j - 1]:
+                iterator[j], iterator[j - 1] = iterator[j - 1], iterator[j]
                 swapped = True
         if not swapped:
             break
-    return a
+    return iterator
