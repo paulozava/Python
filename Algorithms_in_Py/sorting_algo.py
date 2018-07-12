@@ -44,3 +44,22 @@ def selection (iterator=None):
             if iterator[j] < iterator[k]:
                 iterator[j], iterator[k] = iterator[k], iterator[j]
     return iterator
+
+def shell (iterator=None):
+    # Not stable
+    # O(1) extra space
+    # O(n3/2) time as shown (see below)
+    # Adaptive: O(n·lg(n)) time when nearly sorted
+
+    iterator_length = len(iterator)
+    h = 1
+        while h < iterator_length:
+            h = 3 * h + 1
+                while h > 0:
+                    h = h / 3
+                    for k in range(1, h):
+                        new_it = insertion_sort(iterator[k:h])
+            sort
+            a[k:h:n]
+            → invariant: each
+            h - sub - array is sorted
