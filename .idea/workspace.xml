@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6f856ba-5ccf-4534-80c9-30862288b20a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/laumzav.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AlCuOn/Pandas/aula01.py" beforeDir="false" afterPath="$PROJECT_DIR$/AlCuOn/Pandas/aula01.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,8 +13,21 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Python_study" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="aula01.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AlCuOn/Pandas/aula01.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -76,6 +91,7 @@
         <option value="$PROJECT_DIR$/Algorithms_in_Py/sorting_algo.py" />
         <option value="$PROJECT_DIR$/Kaggle_challenges/worldcup2018.ipynb" />
         <option value="$PROJECT_DIR$/Kaggle_challenges/wc2018.py" />
+        <option value="$PROJECT_DIR$/AlCuOn/Pandas/aula01.py" />
       </list>
     </option>
   </component>
@@ -93,7 +109,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,16 +136,18 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last.edited.regexp" value="S(a)mple Text CAn benn find" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Kaggle_challenges/wc2018.py" />
-    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="Python_study" is-module-sdk="true">
+        <option name="useSoftWraps" value="true" />
         <option name="myUseModuleSdk" value="true" />
         <option name="myModuleName" value="Python_study" />
       </console-settings>
@@ -176,6 +193,29 @@
       <option name="EMULATE_TERMINAL" value="true" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="aula01" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kaggle_challenges" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AlCuOn/Pandas/aula01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.aula01" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -536,24 +576,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878347" visible="true" weight="0.24646313" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878347" weight="0.24621212" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5003723" side_tool="true" weight="0.33333334" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4996277" weight="0.32512316" />
+      <window_info anchor="right" id="Python Console" order="5" sideWeight="0.4996277" visible="true" weight="0.48636365" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32676518" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4996277" weight="0.32512316" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="7" sideWeight="0.4996277" visible="true" weight="0.32445922" />
       <window_info id="Structure" order="1" sideWeight="0.50121653" side_tool="true" weight="0.24318182" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.48756218" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.48756218" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39901477" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="R Graphics" order="3" />
-      <window_info anchor="right" id="R Packages" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
     </layout>
@@ -645,8 +686,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Kaggle_challenges/worldcup2018.ipynb" />
-    <entry file="file://$PROJECT_DIR$/Kaggle_challenges/wc2018.py" />
     <entry file="file://$PROJECT_DIR$/Kaggle_challenges/World Cup 2018 Dataset.csv" />
     <entry file="file://$PROJECT_DIR$/Algorithms_in_Py/sorting_algo.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -928,5 +967,19 @@
     <entry file="file://$PROJECT_DIR$/Kaggle_challenges/World Cup 2018 Dataset.csv" />
     <entry file="file://$PROJECT_DIR$/Kaggle_challenges/worldcup2018.ipynb" />
     <entry file="file://$PROJECT_DIR$/Kaggle_challenges/wc2018.py" />
+    <entry file="file://$USER_HOME$/.local/lib/python3.6/site-packages/pandas/core/generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3732">
+          <caret line="3914" column="8" selection-start-line="3914" selection-start-column="8" selection-end-line="3914" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlCuOn/Pandas/aula01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
