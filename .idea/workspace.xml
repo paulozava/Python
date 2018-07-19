@@ -20,8 +20,8 @@
       <file leaf-file-name="aula01.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AlCuOn/Pandas/aula01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="460">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -107,12 +107,56 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Python_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_study" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_study" type="462c0819:PsiDirectoryNode" />
+              <item name="AlCuOn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_study" type="462c0819:PsiDirectoryNode" />
+              <item name="AlCuOn" type="462c0819:PsiDirectoryNode" />
+              <item name="Pandas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_study" type="462c0819:PsiDirectoryNode" />
+              <item name="AlCuOn" type="462c0819:PsiDirectoryNode" />
+              <item name="Pandas" type="462c0819:PsiDirectoryNode" />
+              <item name="extras" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_study" type="462c0819:PsiDirectoryNode" />
+              <item name="AlCuOn" type="462c0819:PsiDirectoryNode" />
+              <item name="Pandas" type="462c0819:PsiDirectoryNode" />
+              <item name="extras" type="462c0819:PsiDirectoryNode" />
+              <item name="dados" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_study" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithms_in_Py" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last.edited.regexp" value="S(a)mple Text CAn benn find" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Kaggle_challenges/wc2018.py" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -199,20 +243,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530006632060</updated>
-    </task>
-    <task id="LOCAL-00061" summary="Finished - a function that receive a string an some markers and return this string without this markers">
-      <created>1530255323603</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1530255323603</updated>
-    </task>
-    <task id="LOCAL-00062" summary="Finished - algorithm that it takes a list of integers in increasing order and returns a correctly formatted string in the range format.">
-      <created>1530255347499</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1530255347499</updated>
     </task>
     <task id="LOCAL-00063" summary="Finished - a group of functions that create a NxN spiral matrix of 0 and 1 with a given size and return that matrix with the maximum path of a snake game.">
       <created>1530255584923</created>
@@ -543,7 +573,21 @@
       <option name="project" value="LOCAL" />
       <updated>1532007480636</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="correção dos dados html">
+      <created>1532008476947</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1532008476947</updated>
+    </task>
+    <task id="LOCAL-00111" summary="removendo conteudo não usado">
+      <created>1532008641093</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1532008641093</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -554,7 +598,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5003723" side_tool="true" weight="0.33333334" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4996277" weight="0.32512316" />
-      <window_info anchor="right" id="Python Console" order="5" sideWeight="0.4996277" weight="0.48636365" />
+      <window_info anchor="right" id="Python Console" order="5" sideWeight="0.49750414" weight="0.48636365" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32676518" />
       <window_info id="Structure" order="1" sideWeight="0.50121653" side_tool="true" weight="0.24318182" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.48752078" />
@@ -565,6 +609,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="R Packages" order="4" />
+      <window_info anchor="right" x="0" y="0" width="291" height="541" id="Documentation" sideWeight="0.5024958" side_tool="true" weight="0.48636365" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -611,8 +656,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add function digitize" />
-    <MESSAGE value="add function basic_op" />
     <MESSAGE value="add function summation" />
     <MESSAGE value="just do it" />
     <MESSAGE value="Finished - changed rotate function to work with any-size matrix" />
@@ -636,7 +679,9 @@
     <MESSAGE value="Implemented shell sort" />
     <MESSAGE value="add basic elements" />
     <MESSAGE value="testando a biblioteca" />
-    <option name="LAST_COMMIT_MESSAGE" value="testando a biblioteca" />
+    <MESSAGE value="correção dos dados html" />
+    <MESSAGE value="removendo conteudo não usado" />
+    <option name="LAST_COMMIT_MESSAGE" value="removendo conteudo não usado" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -658,7 +703,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Kaggle_challenges/World Cup 2018 Dataset.csv" />
     <entry file="file://$PROJECT_DIR$/Algorithms_in_Py/sorting_algo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1116">
@@ -946,10 +990,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AlCuOn/Pandas/extras/dados/dados_html_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5478" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AlCuOn/Pandas/aula01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="460">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
