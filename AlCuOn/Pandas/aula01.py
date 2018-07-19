@@ -16,3 +16,10 @@ tipos_dados = pandas.DataFrame(alugueis.dtypes, columns=['Tipos de dados']) #cri
 tipos_dados.columns.name = 'Variável' #modificando a coluna de variáveis
 tipos_dados
 
+#numero de linhas e de colunas
+alugueis.shape # retorna uma tupla
+linhas, colunas = alugueis.shape
+linhas
+colunas
+f'O número de imóveis é {linhas} e o número de variáveis é {colunas}'
+print('O número de imóveis é {} e o número de variáveis é {}'.format(*alugueis.shape))

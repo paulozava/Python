@@ -20,8 +20,8 @@
       <file leaf-file-name="aula01.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AlCuOn/Pandas/aula01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="503">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -243,13 +243,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530006632060</updated>
-    </task>
-    <task id="LOCAL-00063" summary="Finished - a group of functions that create a NxN spiral matrix of 0 and 1 with a given size and return that matrix with the maximum path of a snake game.">
-      <created>1530255584923</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1530255584923</updated>
     </task>
     <task id="LOCAL-00064" summary="Finished - a function that takes a positive integer number and returns the next bigger number formed by the same digits.">
       <created>1530255748913</created>
@@ -587,7 +580,14 @@
       <option name="project" value="LOCAL" />
       <updated>1532008641093</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="abrindo dados dataframe">
+      <created>1532009804908</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1532009804908</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -598,7 +598,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5003723" side_tool="true" weight="0.33333334" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4996277" weight="0.32512316" />
-      <window_info anchor="right" id="Python Console" order="5" sideWeight="0.49750414" weight="0.48636365" />
+      <window_info anchor="right" id="Python Console" order="5" sideWeight="0.49750414" visible="true" weight="0.48636365" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32676518" />
       <window_info id="Structure" order="1" sideWeight="0.50121653" side_tool="true" weight="0.24318182" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.48752078" />
@@ -656,7 +656,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add function summation" />
     <MESSAGE value="just do it" />
     <MESSAGE value="Finished - changed rotate function to work with any-size matrix" />
     <MESSAGE value="Try to use regex in python" />
@@ -681,7 +680,8 @@
     <MESSAGE value="testando a biblioteca" />
     <MESSAGE value="correção dos dados html" />
     <MESSAGE value="removendo conteudo não usado" />
-    <option name="LAST_COMMIT_MESSAGE" value="removendo conteudo não usado" />
+    <MESSAGE value="abrindo dados dataframe" />
+    <option name="LAST_COMMIT_MESSAGE" value="abrindo dados dataframe" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -997,8 +997,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AlCuOn/Pandas/aula01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="503">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
