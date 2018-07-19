@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6f856ba-5ccf-4534-80c9-30862288b20a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/laumzav.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AlCuOn/Pandas/aula01.py" beforeDir="false" afterPath="$PROJECT_DIR$/AlCuOn/Pandas/aula01.py" afterDir="false" />
     </list>
@@ -17,11 +16,11 @@
     <favorites_list name="Python_study" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="aula01.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AlCuOn/Pandas/aula01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
+            <state relative-caret-position="115">
               <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
@@ -108,36 +107,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Python_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python_study" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python_study" type="462c0819:PsiDirectoryNode" />
-              <item name="AlCuOn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python_study" type="462c0819:PsiDirectoryNode" />
-              <item name="AlCuOn" type="462c0819:PsiDirectoryNode" />
-              <item name="Pandas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python_study" type="462c0819:PsiDirectoryNode" />
-              <item name="Algorithms_in_Py" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="last.edited.regexp" value="S(a)mple Text CAn benn find" />
@@ -152,6 +122,8 @@
         <option name="myModuleName" value="Python_study" />
       </console-settings>
     </option>
+    <option name="myShowVariablesByDefault" value="false" />
+    <option name="myIpythonEnabled" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -227,13 +199,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530006632060</updated>
-    </task>
-    <task id="LOCAL-00060" summary="Finished - a function that returns an list of all variations for an observed PIN">
-      <created>1530255248318</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1530255248319</updated>
     </task>
     <task id="LOCAL-00061" summary="Finished - a function that receive a string an some markers and return this string without this markers">
       <created>1530255323603</created>
@@ -571,22 +536,29 @@
       <option name="project" value="LOCAL" />
       <updated>1531408797013</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="testando a biblioteca">
+      <created>1532007480635</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1532007480636</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878347" weight="0.24621212" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49750414" weight="0.24621212" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5003723" side_tool="true" weight="0.33333334" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4996277" weight="0.32512316" />
-      <window_info anchor="right" id="Python Console" order="5" sideWeight="0.4996277" visible="true" weight="0.48636365" />
+      <window_info anchor="right" id="Python Console" order="5" sideWeight="0.4996277" weight="0.48636365" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32676518" />
       <window_info id="Structure" order="1" sideWeight="0.50121653" side_tool="true" weight="0.24318182" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.48756218" />
-      <window_info id="Favorites" order="2" side_tool="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.48752078" />
+      <window_info id="Favorites" order="2" sideWeight="0.5024958" side_tool="true" weight="0.24621212" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39901477" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -639,7 +611,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add function find_needle" />
     <MESSAGE value="add function digitize" />
     <MESSAGE value="add function basic_op" />
     <MESSAGE value="add function summation" />
@@ -664,7 +635,8 @@
     <MESSAGE value="Implemented selection sort" />
     <MESSAGE value="Implemented shell sort" />
     <MESSAGE value="add basic elements" />
-    <option name="LAST_COMMIT_MESSAGE" value="add basic elements" />
+    <MESSAGE value="testando a biblioteca" />
+    <option name="LAST_COMMIT_MESSAGE" value="testando a biblioteca" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -976,7 +948,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AlCuOn/Pandas/aula01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
+        <state relative-caret-position="115">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
