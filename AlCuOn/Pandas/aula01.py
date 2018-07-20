@@ -23,3 +23,6 @@ linhas
 colunas
 f'O número de imóveis é {linhas} e o número de variáveis é {colunas}'
 print('O número de imóveis é {} e o número de variáveis é {}'.format(*alugueis.shape))
+
+
+
