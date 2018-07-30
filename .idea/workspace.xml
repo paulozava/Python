@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6f856ba-5ccf-4534-80c9-30862288b20a" name="Default" comment="aula04">
-      <change afterPath="$PROJECT_DIR$/AlCuOn/Pandas/aula05.py" afterDir="false" />
+    <list default="true" id="e6f856ba-5ccf-4534-80c9-30862288b20a" name="Default" comment="aula05">
+      <change afterPath="$PROJECT_DIR$/AlCuOn/Pandas/aula06.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="1f46cd80-73e8-44dc-991f-a6d093f6fd6c" name="inicio aula 0" comment="">
@@ -25,27 +25,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="6" />
+          <entry key="py" value="7" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="6" />
+          <entry key="Python" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="441" />
-          <entry key="py" value="1722" />
-          <entry key="txt" value="20" />
+          <entry key="Python Console" value="956" />
+          <entry key="py" value="2126" />
+          <entry key="txt" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="20" />
-          <entry key="Python" value="2163" />
+          <entry key="PLAIN_TEXT" value="28" />
+          <entry key="Python" value="3082" />
         </counts>
       </usages-collector>
     </session>
@@ -55,11 +55,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AlCuOn/Pandas/aula05.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
+            <state relative-caret-position="682">
               <caret line="25" column="108" selection-start-line="25" selection-start-column="108" selection-end-line="25" selection-end-column="108" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AlCuOn/Pandas/aula06.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -135,6 +144,7 @@
         <option value="$PROJECT_DIR$/AlCuOn/Pandas/aula03.py" />
         <option value="$PROJECT_DIR$/AlCuOn/Pandas/aula04.py" />
         <option value="$PROJECT_DIR$/AlCuOn/Pandas/aula05.py" />
+        <option value="$PROJECT_DIR$/AlCuOn/Pandas/aula06.py" />
       </list>
     </option>
   </component>
@@ -275,13 +285,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530006632060</updated>
-    </task>
-    <task id="LOCAL-00074" summary="add function square_sum">
-      <created>1530257745134</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1530257745134</updated>
     </task>
     <task id="LOCAL-00075" summary="add function string_to_number">
       <created>1530257878928</created>
@@ -619,12 +622,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532942127364</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="aula05">
+      <created>1532962176032</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1532962176033</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49750414" weight="0.25757575" />
       <window_info id="Structure" order="1" sideWeight="0.50121653" side_tool="true" weight="0.24318182" />
@@ -644,7 +653,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="R Packages" order="4" />
-      <window_info anchor="right" id="Python Console" order="5" sideWeight="0.49750414" visible="true" weight="0.4318182" />
+      <window_info anchor="right" id="Python Console" order="5" sideWeight="0.49750414" weight="0.5265151" />
       <window_info anchor="right" x="0" y="0" width="291" height="541" id="Documentation" order="6" sideWeight="0.5024958" side_tool="true" weight="0.48636365" />
     </layout>
   </component>
@@ -688,7 +697,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add fish in a pound simulation" />
     <MESSAGE value="work in while loop" />
     <MESSAGE value="remove comments" />
     <MESSAGE value="add in_script tests" />
@@ -713,7 +721,8 @@
     <MESSAGE value="modificando nome aula2 para aula02" />
     <MESSAGE value="fim aula 03" />
     <MESSAGE value="aula04" />
-    <option name="LAST_COMMIT_MESSAGE" value="aula04" />
+    <MESSAGE value="aula05" />
+    <option name="LAST_COMMIT_MESSAGE" value="aula05" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="setValue">
@@ -933,8 +942,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AlCuOn/Pandas/aula05.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
+        <state relative-caret-position="682">
           <caret line="25" column="108" selection-start-line="25" selection-start-column="108" selection-end-line="25" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlCuOn/Pandas/aula06.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
