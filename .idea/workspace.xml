@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6f856ba-5ccf-4534-80c9-30862288b20a" name="Default" comment="aula07">
-      <change afterPath="$PROJECT_DIR$/AlCuOn/Pandas/aula08.py" afterDir="false" />
+    <list default="true" id="e6f856ba-5ccf-4534-80c9-30862288b20a" name="Default" comment="aula08">
+      <change afterPath="$PROJECT_DIR$/AlCuOn/Pandas/aula09.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="1f46cd80-73e8-44dc-991f-a6d093f6fd6c" name="inicio aula 0" comment="">
@@ -28,27 +28,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="9" />
+          <entry key="py" value="11" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="9" />
+          <entry key="Python" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="1597" />
-          <entry key="py" value="4456" />
-          <entry key="txt" value="30" />
+          <entry key="Python Console" value="1701" />
+          <entry key="py" value="5239" />
+          <entry key="txt" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="30" />
-          <entry key="Python" value="6053" />
+          <entry key="PLAIN_TEXT" value="31" />
+          <entry key="Python" value="6940" />
         </counts>
       </usages-collector>
     </session>
@@ -59,10 +59,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AlCuOn/Pandas/aula08.py">
+        <entry file="file://$PROJECT_DIR$/AlCuOn/Pandas/aula09.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AlCuOn/Pandas/aula08.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="4" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -144,14 +156,14 @@
         <option value="$PROJECT_DIR$/AlCuOn/Pandas/aula06.py" />
         <option value="$PROJECT_DIR$/AlCuOn/Pandas/aula07.py" />
         <option value="$PROJECT_DIR$/AlCuOn/Pandas/aula08.py" />
+        <option value="$PROJECT_DIR$/AlCuOn/Pandas/aula09.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="683" />
-    <option name="y" value="30" />
-    <option name="width" value="683" />
-    <option name="height" value="738" />
+    <option name="y" value="27" />
+    <option name="width" value="849" />
+    <option name="height" value="741" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -160,7 +172,31 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Python_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_study" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_study" type="462c0819:PsiDirectoryNode" />
+              <item name="AlCuOn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_study" type="462c0819:PsiDirectoryNode" />
+              <item name="AlCuOn" type="462c0819:PsiDirectoryNode" />
+              <item name="Pandas" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last.edited.regexp" value="S(a)mple Text CAn benn find" />
@@ -259,13 +295,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530006632060</updated>
-    </task>
-    <task id="LOCAL-00077" summary="add function digitize">
-      <created>1530258767801</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1530258767801</updated>
     </task>
     <task id="LOCAL-00078" summary="add function basic_op">
       <created>1530259167764</created>
@@ -603,11 +632,18 @@
       <option name="project" value="LOCAL" />
       <updated>1533031680415</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="aula08">
+      <created>1533038994131</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1533038994131</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1366" height="741" extended-state="7" />
+    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49750414" weight="0.25757575" />
       <window_info id="Structure" order="1" sideWeight="0.50121653" side_tool="true" weight="0.24318182" />
@@ -620,14 +656,14 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5003723" side_tool="true" weight="0.33333334" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4996277" weight="0.32445922" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.48675495" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.48675495" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4996277" weight="0.3228477" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="R Packages" order="4" />
-      <window_info active="true" anchor="right" id="Python Console" order="5" sideWeight="0.49503312" visible="true" weight="0.47348484" />
+      <window_info anchor="right" id="Python Console" order="5" sideWeight="0.49503312" weight="0.47198007" />
       <window_info anchor="right" x="0" y="0" width="291" height="541" id="Documentation" order="6" sideWeight="0.5049669" side_tool="true" weight="0.49924242" />
     </layout>
   </component>
@@ -671,7 +707,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add in_script tests" />
     <MESSAGE value="Finished - function that calculate the max growth of an fish in a pound" />
     <MESSAGE value="Bubble sorting implementation" />
     <MESSAGE value="pycharm stufs" />
@@ -696,7 +731,8 @@
     <MESSAGE value="aula05" />
     <MESSAGE value="aula06" />
     <MESSAGE value="aula07" />
-    <option name="LAST_COMMIT_MESSAGE" value="aula07" />
+    <MESSAGE value="aula08" />
+    <option name="LAST_COMMIT_MESSAGE" value="aula08" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="setValue">
@@ -937,8 +973,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AlCuOn/Pandas/aula08.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlCuOn/Pandas/aula09.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
