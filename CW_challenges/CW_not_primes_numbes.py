@@ -12,7 +12,7 @@ def accumulate_products(max_turns, numbers=None):
 def not_primes(start, end, formers=(2, 3, 5, 7), limit=20000):
     turns = len(str(limit)) + 1
     possibilities = accumulate_products(turns, formers)
-    possibilities = filter(lambda x: start<x<end, possibilities)
+    possibilities = filter(lambda x: start<=x<end, possibilities)
     founds=[]
     for possibility in possibilities:
         test = False
