@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6f856ba-5ccf-4534-80c9-30862288b20a" name="Default" comment="Check the numbers cratered by a full permutation is not a prime number">
-      <change beforePath="$PROJECT_DIR$/CW_challenges/CW_not_primes_numbes.py" beforeDir="false" afterPath="$PROJECT_DIR$/CW_challenges/CW_not_primes_numbes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="1f46cd80-73e8-44dc-991f-a6d093f6fd6c" name="inicio aula 0" comment="">
       <change afterPath="$PROJECT_DIR$/AlCuOn/Pandas/aula03.py" afterDir="false" />
@@ -17,14 +17,15 @@
     <session id="1562891357">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -62,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CW_challenges/CW_not_primes_numbes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            <state relative-caret-position="374">
+              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
               <folding>
                 <marker date="1533072895714" expanded="true" signature="375:378" ph="..." />
               </folding>
@@ -168,25 +169,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Python_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python_study" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python_study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python_study" type="462c0819:PsiDirectoryNode" />
-              <item name="CW_challenges" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="last.edited.regexp" value="S(a)mple Text CAn benn find" />
@@ -286,13 +269,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530006632060</updated>
-    </task>
-    <task id="LOCAL-00082" summary="just do it">
-      <created>1530292415287</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1530292415288</updated>
     </task>
     <task id="LOCAL-00083" summary="Finished - changed rotate function to work with any-size matrix">
       <created>1530522368026</created>
@@ -630,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1533072632027</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="Check the numbers cratered by a full permutation is not a prime number">
+      <created>1533118838109</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1533118838112</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -980,18 +963,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
           <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-          <folding>
-            <marker date="1533061687302" expanded="true" signature="62:67" ph="..." />
-            <marker date="1533061687302" expanded="true" signature="563:779" ph="..." />
-            <marker date="1533061687302" expanded="true" signature="1477:1478" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CW_challenges/CW_not_primes_numbes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="374">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
           <folding>
             <marker date="1533072895714" expanded="true" signature="375:378" ph="..." />
           </folding>
