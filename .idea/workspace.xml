@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6f856ba-5ccf-4534-80c9-30862288b20a" name="Default" comment="right triangle">
-      <change afterPath="$PROJECT_DIR$/CW_challenges/CW_buy_newspaper.py" afterDir="false" />
+    <list default="true" id="e6f856ba-5ccf-4534-80c9-30862288b20a" name="Default" comment="buy newspapper">
+      <change afterPath="$PROJECT_DIR$/CW_challenges/CW_DeD_Character_generator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="1f46cd80-73e8-44dc-991f-a6d093f6fd6c" name="inicio aula 0" comment="" />
@@ -16,41 +16,41 @@
     <session id="1562891357">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="30" />
+          <entry key="py" value="31" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="30" />
+          <entry key="Python" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="3594" />
+          <entry key="Python Console" value="4162" />
           <entry key="dummy" value="3" />
-          <entry key="py" value="8550" />
-          <entry key="txt" value="249" />
+          <entry key="py" value="9910" />
+          <entry key="txt" value="264" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="252" />
-          <entry key="Python" value="12144" />
+          <entry key="PLAIN_TEXT" value="267" />
+          <entry key="Python" value="14072" />
         </counts>
       </usages-collector>
     </session>
@@ -61,10 +61,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CW_challenges/CW_buy_newspaper.py">
+        <entry file="file://$PROJECT_DIR$/CW_challenges/CW_DeD_Character_generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <state relative-caret-position="464">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+              <folding>
+                <marker date="1533208568819" expanded="true" signature="26:27" ph="..." />
+                <marker date="1533208568819" expanded="true" signature="577:582" ph="..." />
+                <marker date="1533208568819" expanded="true" signature="738:739" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,6 +80,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Python Unit Test" />
       </list>
     </option>
   </component>
@@ -100,7 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CW_next_big_number.py" />
         <option value="$PROJECT_DIR$/CW_permutations.py" />
         <option value="$PROJECT_DIR$/CW_format_range_numbers.py" />
         <option value="$PROJECT_DIR$/CW_combination_of_pin.py" />
@@ -151,6 +156,7 @@
         <option value="$PROJECT_DIR$/CW_challenges/CW_right_triangle.py" />
         <option value="$PROJECT_DIR$/CW_challenges/CW_not_primes_numbes.py" />
         <option value="$PROJECT_DIR$/CW_challenges/CW_buy_newspaper.py" />
+        <option value="$PROJECT_DIR$/CW_challenges/CW_DeD_Character_generator.py" />
       </list>
     </option>
   </component>
@@ -168,6 +174,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,7 +191,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,6 +235,9 @@
       <module name="Python_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="/usr/bin/python3.6" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CW_challenges" />
       <option name="IS_MODULE_SDK" value="false" />
@@ -276,13 +285,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530006632060</updated>
-    </task>
-    <task id="LOCAL-00086" summary="improvement in function inver_parentesis">
-      <created>1530531032223</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1530531032223</updated>
     </task>
     <task id="LOCAL-00087" summary="Finished function inver_parentesis">
       <created>1530531928322</created>
@@ -620,7 +622,14 @@
       <option name="project" value="LOCAL" />
       <updated>1533133524531</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="buy newspapper">
+      <created>1533136371534</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1533136371534</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -645,7 +654,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="R Packages" order="4" />
-      <window_info active="true" anchor="right" id="Python Console" order="5" sideWeight="0.49503312" visible="true" weight="0.43333334" />
+      <window_info anchor="right" id="Python Console" order="5" sideWeight="0.49503312" weight="0.5242424" />
       <window_info anchor="right" x="0" y="0" width="291" height="541" id="Documentation" order="6" sideWeight="0.5049669" side_tool="true" weight="0.49924242" />
     </layout>
   </component>
@@ -689,7 +698,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add basic elements" />
     <MESSAGE value="testando a biblioteca" />
     <MESSAGE value="correção dos dados html" />
     <MESSAGE value="removendo conteudo não usado" />
@@ -714,7 +722,8 @@
     <MESSAGE value="nw_se_corners" />
     <MESSAGE value="financial fractions" />
     <MESSAGE value="right triangle" />
-    <option name="LAST_COMMIT_MESSAGE" value="right triangle" />
+    <MESSAGE value="buy newspapper" />
+    <option name="LAST_COMMIT_MESSAGE" value="buy newspapper" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="setValue">
@@ -731,13 +740,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Py_challenge/0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Py_challenge/1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -1014,16 +1016,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
-          <folding>
-            <marker date="1533072895714" expanded="true" signature="375:378" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CW_challenges/CW_buy_newspaper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="308">
           <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CW_challenges/CW_DeD_Character_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <marker date="1533208568819" expanded="true" signature="26:27" ph="..." />
+            <marker date="1533208568819" expanded="true" signature="577:582" ph="..." />
+            <marker date="1533208568819" expanded="true" signature="738:739" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
