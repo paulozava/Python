@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6f856ba-5ccf-4534-80c9-30862288b20a" name="Default" comment="delete inutil">
-      <change afterPath="$PROJECT_DIR$/CW_challenges/CW_Alphabet_Position.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CW_challenges/CW_pile_Cubes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -69,12 +68,12 @@
         <counts>
           <entry key="Python Console" value="386" />
           <entry key="py" value="257" />
-          <entry key="txt" value="13" />
+          <entry key="txt" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="PLAIN_TEXT" value="35" />
           <entry key="Python" value="643" />
         </counts>
       </usages-collector>
@@ -108,7 +107,7 @@
         <entry file="file://$PROJECT_DIR$/CW_challenges/CW_pile_Cubes.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
               <folding>
                 <marker date="1533929711968" expanded="true" signature="25:30" ph="..." />
               </folding>
@@ -327,13 +326,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530006632060</updated>
-    </task>
-    <task id="LOCAL-00088" summary="Finished function that calculate a blur pixel for an matrix given">
-      <created>1530626355699</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1530626355700</updated>
     </task>
     <task id="LOCAL-00089" summary="Finished function that count mines in neighbourhood">
       <created>1530690834576</created>
@@ -671,7 +663,14 @@
       <option name="project" value="LOCAL" />
       <updated>1533635903303</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="alphabet position">
+      <created>1533929950576</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1533929950577</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -696,7 +695,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="R Packages" order="4" />
-      <window_info active="true" anchor="right" id="Python Console" order="5" sideWeight="0.49503312" visible="true" weight="0.53933436" />
+      <window_info active="true" anchor="right" id="Python Console" order="5" sideWeight="0.49503312" visible="true" weight="0.4515885" />
       <window_info anchor="right" x="0" y="0" width="291" height="541" id="Documentation" order="6" sideWeight="0.5049669" side_tool="true" weight="0.49924242" />
     </layout>
   </component>
@@ -740,7 +739,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="correção dos dados html" />
     <MESSAGE value="removendo conteudo não usado" />
     <MESSAGE value="abrindo dados dataframe" />
     <MESSAGE value="analisando o dataframe" />
@@ -765,7 +763,8 @@
     <MESSAGE value="right triangle" />
     <MESSAGE value="buy newspapper" />
     <MESSAGE value="delete inutil" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete inutil" />
+    <MESSAGE value="alphabet position" />
+    <option name="LAST_COMMIT_MESSAGE" value="alphabet position" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="setValue">
@@ -1077,7 +1076,7 @@
     <entry file="file://$PROJECT_DIR$/CW_challenges/CW_pile_Cubes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding>
             <marker date="1533929711968" expanded="true" signature="25:30" ph="..." />
           </folding>
