@@ -1,0 +1,23 @@
+def transpose(map):
+    xlen = len(map[0])
+    ylen = len(map)
+    for i in range(ylen):
+
+
+def solve_mine(map, n):
+    pass
+
+map = """
+? ? ? ? ? ?
+? ? ? ? ? ?
+? ? ? 0 ? ?
+? ? ? ? ? ?
+? ? ? ? ? ?
+0 0 0 ? ? ?
+""".strip()
+
+mapline = [line.split(' ') for line in map.split('\n')]
+
+
+for line in mapline:
+    if '0' in line:

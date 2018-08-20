@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6f856ba-5ccf-4534-80c9-30862288b20a" name="Default" comment="pile of cubes">
-      <change afterPath="$PROJECT_DIR$/CW_challenges/CW_prime_number.py" afterDir="false" />
+    <list default="true" id="e6f856ba-5ccf-4534-80c9-30862288b20a" name="Default" comment="prime number">
+      <change afterPath="$PROJECT_DIR$/CW_challenges/CW_mines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CW_challenges/teste.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CW_challenges/CW_make_a_spiral.py" beforeDir="false" afterPath="$PROJECT_DIR$/CW_challenges/CW_make_a_spiral.py" afterDir="false" />
     </list>
     <list id="1f46cd80-73e8-44dc-991f-a6d093f6fd6c" name="inicio aula 0" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,34 +59,36 @@
     <session id="-383337649">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="459" />
-          <entry key="py" value="433" />
-          <entry key="txt" value="50" />
+          <entry key="Python Console" value="789" />
+          <entry key="py" value="1544" />
+          <entry key="txt" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="50" />
-          <entry key="Python" value="892" />
+          <entry key="PLAIN_TEXT" value="66" />
+          <entry key="Python" value="2333" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="9" />
+          <entry key="py" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="9" />
+          <entry key="Python" value="21" />
         </counts>
       </usages-collector>
     </session>
@@ -93,30 +97,26 @@
     <favorites_list name="Python_study" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CW_challenges/CW_mines.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <marker date="1534778886059" expanded="true" signature="19:91" ph="..." />
+                <marker date="1534778886059" expanded="true" signature="114:125" ph="..." />
+                <marker date="1534778886059" expanded="true" signature="218:276" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CW_challenges/CW_prime_number.py">
+        <entry file="file://$PROJECT_DIR$/CW_challenges/CW_make_a_spiral.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="9" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CW_challenges/CW_permutations.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="2" selection-start-column="2" selection-end-column="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CW_challenges/CW_not_primes_numbes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="73" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="73" />
+            <state relative-caret-position="946">
+              <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -153,8 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CW_the_lift.py" />
-        <option value="$PROJECT_DIR$/CW_kotlin_dart_transpiler.py" />
         <option value="$PROJECT_DIR$/CW_make_a_spiral.py" />
         <option value="$PROJECT_DIR$/CW_seconds_to_human_read_parser.py" />
         <option value="$PROJECT_DIR$/CW_PROP_refactoring.py" />
@@ -172,7 +170,6 @@
         <option value="$PROJECT_DIR$/CW_challenges/CW_the_lift.py" />
         <option value="$PROJECT_DIR$/CW_challenges/CW_8_basic_solutions.py" />
         <option value="$PROJECT_DIR$/CW_challenges/CW_basic_solutions.py" />
-        <option value="$PROJECT_DIR$/CW_challenges/CW_make_a_spiral.py" />
         <option value="$PROJECT_DIR$/CF_challenges/box_blur.py" />
         <option value="$PROJECT_DIR$/CF_challenges/mine_warper.py" />
         <option value="$PROJECT_DIR$/CF_challenges/reversed_parentesis.py" />
@@ -204,6 +201,9 @@
         <option value="$PROJECT_DIR$/CW_challenges/CW_Alphabet_Position.py" />
         <option value="$PROJECT_DIR$/CW_challenges/CW_pile_Cubes.py" />
         <option value="$PROJECT_DIR$/CW_challenges/CW_prime_number.py" />
+        <option value="$PROJECT_DIR$/CW_challenges/teste.py" />
+        <option value="$PROJECT_DIR$/CW_challenges/CW_mines.py" />
+        <option value="$PROJECT_DIR$/CW_challenges/CW_make_a_spiral.py" />
       </list>
     </option>
   </component>
@@ -332,13 +332,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530006632060</updated>
-    </task>
-    <task id="LOCAL-00090" summary="Finished function that count mines in neighbourhood">
-      <created>1530691165686</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1530691165687</updated>
     </task>
     <task id="LOCAL-00091" summary="Finished function that count mines in neighbourhood">
       <created>1530694350352</created>
@@ -676,14 +669,21 @@
       <option name="project" value="LOCAL" />
       <updated>1533929968089</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="prime number">
+      <created>1533931954302</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1533931954302</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-9" width="1366" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49750414" weight="0.2677761" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49750414" visible="true" weight="0.2677761" />
       <window_info id="Structure" order="1" sideWeight="0.50121653" side_tool="true" weight="0.24318182" />
       <window_info id="Favorites" order="2" sideWeight="0.5024958" side_tool="true" weight="0.24621212" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -695,7 +695,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5003723" side_tool="true" weight="0.33333334" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.48675495" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4996277" weight="0.3228477" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" sideWeight="0.4996277" visible="true" weight="0.32248062" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -745,7 +745,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="abrindo dados dataframe" />
     <MESSAGE value="analisando o dataframe" />
     <MESSAGE value="criando aranhas" />
     <MESSAGE value="final aula 2" />
@@ -770,7 +769,8 @@
     <MESSAGE value="delete inutil" />
     <MESSAGE value="alphabet position" />
     <MESSAGE value="pile of cubes" />
-    <option name="LAST_COMMIT_MESSAGE" value="pile of cubes" />
+    <MESSAGE value="prime number" />
+    <option name="LAST_COMMIT_MESSAGE" value="prime number" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="setValue">
@@ -787,34 +787,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CW_challenges/CW_combination_of_pin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CW_challenges/CW_the_lift.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CW_challenges/CW_make_a_spiral.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CW_challenges/CW_next_big_number.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CW_challenges/CW_basic_solutions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
@@ -1037,23 +1009,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CW_challenges/CW_pile_Cubes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <marker date="1533929711968" expanded="true" signature="25:30" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CW_challenges/CW_NW_SE_corners.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CW_challenges/CW_riemmans.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
@@ -1061,10 +1016,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CW_challenges/CW_Snail.py">
+    <entry file="file://$PROJECT_DIR$/CW_challenges/teste.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <marker date="1534171981987" expanded="true" signature="29:34" ph="..." />
+            <marker date="1534171981987" expanded="true" signature="105:110" ph="..." />
+            <marker date="1534171981987" expanded="true" signature="175:176" ph="..." />
+            <marker date="1534171981987" expanded="true" signature="208:213" ph="..." />
+            <marker date="1534171981987" expanded="true" signature="427:436" ph="..." />
+            <marker date="1534171981987" expanded="true" signature="622:635" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CW_challenges/CW_NW_SE_corners.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="126" />
+          <caret selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CW_challenges/CW_the_lift.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CW_challenges/CW_prime_number.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CW_challenges/CW_pile_Cubes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CW_challenges/CW_not_primes_numbes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="73" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CW_challenges/CW_Snail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" selection-start-line="2" selection-end-line="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1075,17 +1076,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CW_challenges/CW_not_primes_numbes.py">
+    <entry file="file://$PROJECT_DIR$/CW_challenges/CW_mines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="73" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="73" />
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <marker date="1534778886059" expanded="true" signature="19:91" ph="..." />
+            <marker date="1534778886059" expanded="true" signature="114:125" ph="..." />
+            <marker date="1534778886059" expanded="true" signature="218:276" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CW_challenges/CW_prime_number.py">
+    <entry file="file://$PROJECT_DIR$/CW_challenges/CW_make_a_spiral.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="946">
+          <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
         </state>
       </provider>
     </entry>
