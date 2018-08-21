@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6f856ba-5ccf-4534-80c9-30862288b20a" name="Default" comment="problems with mines">
+    <list default="true" id="e6f856ba-5ccf-4534-80c9-30862288b20a" name="Default" comment="add 4 pass stations problem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CW_challenges/CW_mines.py" beforeDir="false" afterPath="$PROJECT_DIR$/CW_challenges/CW_mines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CW_challenges/CW_4pass.py" beforeDir="false" afterPath="$PROJECT_DIR$/CW_challenges/CW_4pass.py" afterDir="false" />
     </list>
     <list id="1f46cd80-73e8-44dc-991f-a6d093f6fd6c" name="inicio aula 0" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,31 +62,31 @@
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="891" />
-          <entry key="py" value="1849" />
-          <entry key="txt" value="101" />
+          <entry key="Python Console" value="1727" />
+          <entry key="py" value="2857" />
+          <entry key="txt" value="131" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="101" />
-          <entry key="Python" value="2740" />
+          <entry key="PLAIN_TEXT" value="131" />
+          <entry key="Python" value="4584" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="22" />
+          <entry key="py" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="22" />
+          <entry key="Python" value="23" />
         </counts>
       </usages-collector>
     </session>
@@ -96,15 +96,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CW_challenges/CW_mines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="28" selection-start-line="28" selection-end-line="42" selection-end-column="72" />
+            <state relative-caret-position="465">
+              <caret line="42" column="58" lean-forward="true" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
               <folding>
                 <marker date="1534785276919" expanded="true" signature="425:426" ph="..." />
                 <marker date="1534785276919" expanded="true" signature="449:460" ph="..." />
                 <marker date="1534785276919" expanded="true" signature="553:611" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CW_challenges/CW_4pass.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+              <folding>
+                <marker date="1534870259615" expanded="true" signature="198:232" ph="..." />
+                <marker date="1534870259615" expanded="true" signature="1011:1012" ph="..." />
               </folding>
             </state>
           </provider>
@@ -142,7 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CW_make_a_spiral.py" />
         <option value="$PROJECT_DIR$/CW_seconds_to_human_read_parser.py" />
         <option value="$PROJECT_DIR$/CW_PROP_refactoring.py" />
         <option value="$PROJECT_DIR$/Python_challenge/README.md" />
@@ -193,6 +205,7 @@
         <option value="$PROJECT_DIR$/CW_challenges/teste.py" />
         <option value="$PROJECT_DIR$/CW_challenges/CW_make_a_spiral.py" />
         <option value="$PROJECT_DIR$/CW_challenges/CW_mines.py" />
+        <option value="$PROJECT_DIR$/CW_challenges/CW_4pass.py" />
       </list>
     </option>
   </component>
@@ -321,20 +334,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530006632060</updated>
-    </task>
-    <task id="LOCAL-00093" summary="find draws and wins">
-      <created>1530709264061</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1530709264062</updated>
-    </task>
-    <task id="LOCAL-00094" summary="add fish in a pound simulation">
-      <created>1530867815506</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1530867815507</updated>
     </task>
     <task id="LOCAL-00095" summary="work in while loop">
       <created>1530870492630</created>
@@ -665,7 +664,21 @@
       <option name="project" value="LOCAL" />
       <updated>1534782608394</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <task id="LOCAL-00142" summary="problems with mines">
+      <created>1534860406750</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1534860406751</updated>
+    </task>
+    <task id="LOCAL-00143" summary="add 4 pass stations problem">
+      <created>1534860484483</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1534860484483</updated>
+    </task>
+    <option name="localTasksCounter" value="144" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -676,7 +689,7 @@
       <window_info id="Structure" order="1" sideWeight="0.50121653" side_tool="true" weight="0.24318182" />
       <window_info id="Favorites" order="2" sideWeight="0.5024958" side_tool="true" weight="0.24621212" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32781458" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32713178" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32676518" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39900663" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -690,7 +703,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="R Packages" order="4" />
-      <window_info anchor="right" id="Python Console" order="5" sideWeight="0.49503312" weight="0.4515885" />
+      <window_info anchor="right" id="Python Console" order="5" sideWeight="0.49503312" weight="0.35325265" />
       <window_info anchor="right" x="0" y="0" width="291" height="541" id="Documentation" order="6" sideWeight="0.5049669" side_tool="true" weight="0.49924242" />
     </layout>
   </component>
@@ -734,7 +747,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="final aula 2" />
     <MESSAGE value="inicio aula 0" />
     <MESSAGE value="inicio aula 03" />
     <MESSAGE value="final aula 03" />
@@ -759,7 +771,8 @@
     <MESSAGE value="prime number" />
     <MESSAGE value="correct rotate" />
     <MESSAGE value="problems with mines" />
-    <option name="LAST_COMMIT_MESSAGE" value="problems with mines" />
+    <MESSAGE value="add 4 pass stations problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 4 pass stations problem" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="setValue">
@@ -776,13 +789,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CW_challenges/CW_basic_solutions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="109" column="24" lean-forward="true" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CF_challenges/mine_warper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -1009,14 +1015,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="509">
           <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
-          <folding>
-            <marker date="1534171981987" expanded="true" signature="29:34" ph="..." />
-            <marker date="1534171981987" expanded="true" signature="105:110" ph="..." />
-            <marker date="1534171981987" expanded="true" signature="175:176" ph="..." />
-            <marker date="1534171981987" expanded="true" signature="208:213" ph="..." />
-            <marker date="1534171981987" expanded="true" signature="427:436" ph="..." />
-            <marker date="1534171981987" expanded="true" signature="622:635" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1074,12 +1072,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CW_challenges/CW_mines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="28" selection-start-line="28" selection-end-line="42" selection-end-column="72" />
+        <state relative-caret-position="465">
+          <caret line="42" column="58" lean-forward="true" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
           <folding>
             <marker date="1534785276919" expanded="true" signature="425:426" ph="..." />
             <marker date="1534785276919" expanded="true" signature="449:460" ph="..." />
             <marker date="1534785276919" expanded="true" signature="553:611" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CW_challenges/CW_4pass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding>
+            <marker date="1534870259615" expanded="true" signature="198:232" ph="..." />
+            <marker date="1534870259615" expanded="true" signature="1011:1012" ph="..." />
           </folding>
         </state>
       </provider>
