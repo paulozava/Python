@@ -27,9 +27,17 @@ map = """
 """.strip()
 
 mapline = [line.split(' ') for line in map.split('\n')]
-map_transpose = rotate(mapline)
 
-for line in mapline:
-    for item in line:
-        if '0' == item:
 
+for yindex, line in enumerate(mapline):
+    if '0' in line:
+        for xindex, item in enumerate(line):
+            if item == '0':
+                if xindex > 0:
+                    mapline[yindex][xindex - 1] = open(xindex-1, yindex)
+                if xindex < len(line):
+                    mapline[yindex][xindex + 1] = open(xindex+1, yindex)
+                if yindex > 0:
+                    mapline[yindex - 1][xindex] = open(xindex, yindex-1)
+                if yindex < len(mapline):
+                    mapline[yindex + 1][xindex] = open(xindex, yindex+1)
