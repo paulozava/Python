@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6f856ba-5ccf-4534-80c9-30862288b20a" name="Default" comment="add 4 pass stations problem">
+    <list default="true" id="e6f856ba-5ccf-4534-80c9-30862288b20a" name="Default" comment="add 4 cnot function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CW_challenges/CW_4pass.py" beforeDir="false" afterPath="$PROJECT_DIR$/CW_challenges/CW_4pass.py" afterDir="false" />
     </list>
@@ -68,15 +68,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="1727" />
-          <entry key="py" value="2857" />
-          <entry key="txt" value="131" />
+          <entry key="Python Console" value="1984" />
+          <entry key="py" value="3245" />
+          <entry key="txt" value="146" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="131" />
-          <entry key="Python" value="4584" />
+          <entry key="PLAIN_TEXT" value="146" />
+          <entry key="Python" value="5229" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -113,11 +113,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CW_challenges/CW_4pass.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+            <state relative-caret-position="484">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
-                <marker date="1534870259615" expanded="true" signature="198:232" ph="..." />
-                <marker date="1534870259615" expanded="true" signature="1011:1012" ph="..." />
+                <marker date="1534873580650" expanded="true" signature="264:298" ph="..." />
+                <marker date="1534873580650" expanded="true" signature="1371:1372" ph="..." />
               </folding>
             </state>
           </provider>
@@ -334,13 +334,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530006632060</updated>
-    </task>
-    <task id="LOCAL-00095" summary="work in while loop">
-      <created>1530870492630</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1530870492630</updated>
     </task>
     <task id="LOCAL-00096" summary="remove comments">
       <created>1530870908582</created>
@@ -678,7 +671,14 @@
       <option name="project" value="LOCAL" />
       <updated>1534860484483</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <task id="LOCAL-00144" summary="add 4 cnot function">
+      <created>1534870279339</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1534870279340</updated>
+    </task>
+    <option name="localTasksCounter" value="145" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -698,13 +698,13 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5003723" side_tool="true" weight="0.33333334" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.48675495" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4996277" weight="0.32248062" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" sideWeight="0.49503312" visible="true" weight="0.35193798" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="R Packages" order="4" />
-      <window_info anchor="right" id="Python Console" order="5" sideWeight="0.49503312" weight="0.35325265" />
-      <window_info anchor="right" x="0" y="0" width="291" height="541" id="Documentation" order="6" sideWeight="0.5049669" side_tool="true" weight="0.49924242" />
+      <window_info anchor="right" x="0" y="0" width="291" height="541" id="Documentation" order="5" sideWeight="0.5049669" side_tool="true" weight="0.49924242" />
     </layout>
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -747,7 +747,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="inicio aula 0" />
     <MESSAGE value="inicio aula 03" />
     <MESSAGE value="final aula 03" />
     <MESSAGE value="modificando nome aula2 para aula02" />
@@ -772,7 +771,8 @@
     <MESSAGE value="correct rotate" />
     <MESSAGE value="problems with mines" />
     <MESSAGE value="add 4 pass stations problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="add 4 pass stations problem" />
+    <MESSAGE value="add 4 cnot function" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 4 cnot function" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="setValue">
@@ -1084,11 +1084,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CW_challenges/CW_4pass.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        <state relative-caret-position="484">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
-            <marker date="1534870259615" expanded="true" signature="198:232" ph="..." />
-            <marker date="1534870259615" expanded="true" signature="1011:1012" ph="..." />
+            <marker date="1534873580650" expanded="true" signature="264:298" ph="..." />
+            <marker date="1534873580650" expanded="true" signature="1371:1372" ph="..." />
           </folding>
         </state>
       </provider>
